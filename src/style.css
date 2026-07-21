@@ -128,6 +128,13 @@ body:hover .cursor-glow { opacity: 1; }
    ============================================ */
 .section { padding: 120px 0; position: relative; }
 .section-dark { background: var(--bg-secondary); }
+#about {
+  background: linear-gradient(135deg, #b6cda5, #97b87f, #88a672);
+}
+#about .section-title,
+#about .section-tag {
+  color: #1e3a1e;
+}
 .section-header { text-align: center; margin-bottom: 64px; }
 .section-tag { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--accent-blue); margin-bottom: 16px; font-family: var(--font-mono); }
 .section-title { font-size: clamp(2rem,5vw,3rem); font-weight: 800; letter-spacing: -1px; margin-bottom: 16px; }

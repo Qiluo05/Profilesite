@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <span class="footer-logo">DSH</span>
+          <span class="footer-logo">HONE</span>
           <p>AI Agent Engineer & Open Source Contributor</p>
         </div>
         <div class="footer-links">

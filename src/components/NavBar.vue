@@ -1,7 +1,7 @@
 <template>
   <nav class="floating-nav" id="floatingNav">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo">DSH</a>
+      <a href="#hero" class="nav-logo">HOME</a>
       <div class="nav-links">
         <a href="#about" data-section="about">关于</a>
         <a href="#skills" data-section="skills">技能</a>
