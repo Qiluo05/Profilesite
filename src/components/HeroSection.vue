@@ -56,18 +56,134 @@
       <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
       <span>向下滚动</span>
     </div>
+
+    <!-- 右侧圆形旋转轮播 -->
+    <div class="carousel-ring">
+      <div class="ring-center">
+        <span class="ring-label">{{ items[currentIndex].label }}</span>
+        <span class="ring-desc">{{ items[currentIndex].desc }}</span>
+      </div>
+      <div class="ring-orbit">
+        <div
+          v-for="(item, index) in items"
+          :key="index"
+          class="ring-card"
+          :style="getCardStyle(index)"
+        >
+          <img :src="item.image" :alt="item.label" />
+        </div>
+      </div>
+      <div class="ring-dots">
+        <span
+          v-for="(item, index) in items"
+          :key="index"
+          class="dot"
+          :class="{ active: index === currentIndex }"
+          @click="currentIndex = index"
+        ></span>
+      </div>
+    </div>
   </section>
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { useParticleField } from '../composables/useParticleField.js'
 import { useTypingEffect } from '../composables/useTypingEffect.js'
 import { useParallaxOrbs } from '../composables/useParallaxOrbs.js'
+
+const currentIndex = ref(0)
+const animPhase = ref(0)     // 0=idle, 1=右移, 2=上移
+const exitingCard = ref(-1)  // 走右→上路径的卡片索引
+let timer = null
+
+// 导入 homelun 中的 6 张图片
+const images = Object.values(import.meta.glob('../data/homelun/*', { eager: true, query: '?url', import: 'default' }))
+const items = images.map((url, i) => ({
+  image: url,
+  label: ``,
+  desc: '',
+}))
+
+// 6 位循环：0=缓冲(隐藏), 1=右上, 2=中上, 3=中心, 4=中下, 5=右下
+const cyclePositions = [
+  { x: 580, y: -300, scale: 0.1,  hidden: true },  // 0: 缓冲（右上后面隐藏）
+  { x: 180, y: -300, scale: 0.6,  hidden: false },  // 1: 右上
+  { x: -60, y: -155, scale: 0.82, hidden: false },  // 2: 中上
+  { x: -250, y: 0,   scale: 1,    hidden: false },  // 3: 中心
+  { x: -60, y: 155,  scale: 0.82, hidden: false },  // 4: 中下
+  { x: 180, y: 300,  scale: 0.6,  hidden: false },  // 5: 右下
+]
+
+function getCardStyle(index) {
+  const ci = currentIndex.value
+  const pos = (index + ci) % 6  // 循环中的位置
+
+  // 三段式路径：从右下(位置5)通过右→上走到缓冲(位置0)
+  if (animPhase.value > 0 && index === exitingCard.value) {
+    const offX = 180 + 480
+    if (animPhase.value === 1) {
+      return {
+        transform: `translate(${offX}px, 300px) translate(-50%, -50%) scale(0.4)`,
+        zIndex: 1, opacity: 0.4,
+        transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+      }
+    }
+    if (animPhase.value === 2) {
+      return {
+        transform: `translate(580px, -300px) translate(-50%, -50%) scale(0.1)`,
+        zIndex: 0, opacity: 0,
+        transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
+      }
+    }
+  }
+
+  const slot = cyclePositions[pos]
+
+  // 缓冲位：隐藏
+  if (slot.hidden) {
+    return {
+      transform: `translate(${slot.x}px, ${slot.y}px) translate(-50%, -50%) scale(${slot.scale})`,
+      zIndex: 0, opacity: 0,
+      transition: 'all 0.7s cubic-bezier(0.4, 0, 0.2, 1)',
+    }
+  }
+
+  // 可见卡位
+  return {
+    transform: `translate(${slot.x}px, ${slot.y}px) translate(-50%, -50%) scale(${slot.scale})`,
+    zIndex: Math.round(slot.scale * 10),
+    opacity: 0.3 + slot.scale * 0.7,
+    transition: 'all 0.7s cubic-bezier(0.4, 0, 0.2, 1)',
+  }
+}
+
+function rotateToNext() {
+  const ci = currentIndex.value
+  exitingCard.value = (5 - ci + 6) % 6  // 当前在右下(位置5)的卡片
+  currentIndex.value = (ci + 1) % 6     // 其他卡片立即进入下一位置
+  animPhase.value = 1 // 右移
+  setTimeout(() => {
+    animPhase.value = 2 // 上移→缓冲位
+    setTimeout(() => {
+      animPhase.value = 0
+      exitingCard.value = -1
+    }, 350)
+  }, 350)
+}
+
+function startRotation() {
+  timer = setInterval(() => rotateToNext(), 3500)
+}
 
 onMounted(() => {
   useParticleField().init()
   useTypingEffect().start()
   useParallaxOrbs().init()
+  startRotation()
+})
+
+onUnmounted(() => {
+  if (timer) clearInterval(timer)
 })
 </script>
