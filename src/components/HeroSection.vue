@@ -97,7 +97,7 @@ const animPhase = ref(0)     // 0=idle, 1=右移, 2=上移
 const exitingCard = ref(-1)  // 走右→上路径的卡片索引
 let timer = null
 
-// 导入 homelun 中的 6 张图片
+// 导入 homelun 中的全部图片（支持任意张数）
 const images = Object.values(import.meta.glob('../data/homelun/*', { eager: true, query: '?url', import: 'default' }))
 const items = images.map((url, i) => ({
   image: url,
@@ -105,7 +105,9 @@ const items = images.map((url, i) => ({
   desc: '',
 }))
 
+const RING_SIZE = 6 // 轮播环槽位数（排版固定，保持 6 位循环）
 // 6 位循环：0=缓冲(隐藏), 1=右上, 2=中上, 3=中心, 4=中下, 5=右下
+// 超过 6 张的图片按 (index + currentIndex) % items.length 排在缓冲位之后，全部隐藏等待
 const cyclePositions = [
   { x: 580, y: -300, scale: 0.1,  hidden: true },  // 0: 缓冲（右上后面隐藏）
   { x: 180, y: -300, scale: 0.6,  hidden: false },  // 1: 右上
@@ -117,7 +119,8 @@ const cyclePositions = [
 
 function getCardStyle(index) {
   const ci = currentIndex.value
-  const pos = (index + ci) % 6  // 循环中的位置
+  const N = items.length
+  const pos = (index + ci) % N  // 循环中的位置（0 ~ N-1）
 
   // 三段式路径：从右下(位置5)通过右→上走到缓冲(位置0)
   if (animPhase.value > 0 && index === exitingCard.value) {
@@ -135,6 +138,15 @@ function getCardStyle(index) {
         zIndex: 0, opacity: 0,
         transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
       }
+    }
+  }
+
+  // 超出轮播环的卡片：全部在缓冲位隐藏等待
+  if (pos >= RING_SIZE) {
+    return {
+      transform: `translate(580px, -300px) translate(-50%, -50%) scale(0.1)`,
+      zIndex: 0, opacity: 0,
+      transition: 'all 0.7s cubic-bezier(0.4, 0, 0.2, 1)',
     }
   }
 
@@ -160,8 +172,10 @@ function getCardStyle(index) {
 
 function rotateToNext() {
   const ci = currentIndex.value
-  exitingCard.value = (5 - ci + 6) % 6  // 当前在右下(位置5)的卡片
-  currentIndex.value = (ci + 1) % 6     // 其他卡片立即进入下一位置
+  const N = items.length
+  // 环满（N > 5）时右下(位置5)才有卡片需要退出；否则没有退出卡片
+  exitingCard.value = N > RING_SIZE - 1 ? (RING_SIZE - 1 - ci + N) % N : -1
+  currentIndex.value = (ci + 1) % N     // 其他卡片立即进入下一位置
   animPhase.value = 1 // 右移
   setTimeout(() => {
     animPhase.value = 2 // 上移→缓冲位
