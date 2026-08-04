@@ -4,10 +4,11 @@
   <NavBar />
   <HeroSection />
   <AboutSection />
+  <WorkExperienceSection />
   <SkillsSection />
   <ProjectsSection />
-  <GallerySection />
-  <AchievementsSection />
+  <!-- <GallerySection /> -->
+  <!-- <AchievementsSection /> -->
   <ContactSection />
   <FooterSection />
 </template>
@@ -18,6 +19,7 @@ import { onMounted, nextTick } from 'vue'
 import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
+import WorkExperienceSection from './components/WorkExperienceSection.vue'
 import SkillsSection from './components/SkillsSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import GallerySection from './components/GallerySection.vue'

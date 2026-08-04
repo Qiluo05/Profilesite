@@ -109,12 +109,12 @@ const RING_SIZE = 6 // 轮播环槽位数（排版固定，保持 6 位循环）
 // 6 位循环：0=缓冲(隐藏), 1=右上, 2=中上, 3=中心, 4=中下, 5=右下
 // 超过 6 张的图片按 (index + currentIndex) % items.length 排在缓冲位之后，全部隐藏等待
 const cyclePositions = [
-  { x: 580, y: -300, scale: 0.1,  hidden: true },  // 0: 缓冲（右上后面隐藏）
-  { x: 180, y: -300, scale: 0.6,  hidden: false },  // 1: 右上
-  { x: -60, y: -155, scale: 0.82, hidden: false },  // 2: 中上
+  { x: 520, y: -300, scale: 0.1,  hidden: true },  // 0: 缓冲（右上后面隐藏）
+  { x: 170, y: -300, scale: 0.6,  hidden: false },  // 1: 右上
+  { x: -60, y: -170, scale: 0.82, hidden: false },  // 2: 中上
   { x: -250, y: 0,   scale: 1,    hidden: false },  // 3: 中心
-  { x: -60, y: 155,  scale: 0.82, hidden: false },  // 4: 中下
-  { x: 180, y: 300,  scale: 0.6,  hidden: false },  // 5: 右下
+  { x: -60, y: 170,  scale: 0.82, hidden: false },  // 4: 中下
+  { x: 170, y: 300,  scale: 0.6,  hidden: false },  // 5: 右下
 ]
 
 function getCardStyle(index) {
@@ -124,7 +124,7 @@ function getCardStyle(index) {
 
   // 三段式路径：从右下(位置5)通过右→上走到缓冲(位置0)
   if (animPhase.value > 0 && index === exitingCard.value) {
-    const offX = 180 + 480
+    const offX = 170 + 600
     if (animPhase.value === 1) {
       return {
         transform: `translate(${offX}px, 300px) translate(-50%, -50%) scale(0.4)`,
@@ -134,7 +134,7 @@ function getCardStyle(index) {
     }
     if (animPhase.value === 2) {
       return {
-        transform: `translate(580px, -300px) translate(-50%, -50%) scale(0.1)`,
+        transform: `translate(520px, -300px) translate(-50%, -50%) scale(0.1)`,
         zIndex: 0, opacity: 0,
         transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
       }
@@ -144,7 +144,7 @@ function getCardStyle(index) {
   // 超出轮播环的卡片：全部在缓冲位隐藏等待
   if (pos >= RING_SIZE) {
     return {
-      transform: `translate(580px, -300px) translate(-50%, -50%) scale(0.1)`,
+      transform: `translate(520px, -300px) translate(-50%, -50%) scale(0.1)`,
       zIndex: 0, opacity: 0,
       transition: 'all 0.7s cubic-bezier(0.4, 0, 0.2, 1)',
     }

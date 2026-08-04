@@ -4,10 +4,11 @@
       <a href="#hero" class="nav-logo">HOME</a>
       <div class="nav-links">
         <a href="#about" data-section="about">关于</a>
+        <a href="#experience" data-section="experience">经验</a>
         <a href="#skills" data-section="skills">技能</a>
         <a href="#projects" data-section="projects">项目</a>
-        <a href="#gallery" data-section="gallery">图鉴</a>
-        <a href="#achievements" data-section="achievements">成就</a>
+        <!-- <a href="#gallery" data-section="gallery">图鉴</a> -->
+        <!-- <a href="#achievements" data-section="achievements">成就</a> -->
         <a href="#contact" data-section="contact">联系</a>
       </div>
       <a href="https://github.com/Qiluo05" target="_blank" class="nav-github">
