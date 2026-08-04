@@ -7,7 +7,7 @@
           <p>AI Agent Engineer & Open Source Contributor</p>
         </div>
         <div class="footer-links">
-          <a href="https://github.com/bcefghj" target="_blank">GitHub</a>
+          <a href="https://github.com/Qiluo05" target="_blank">GitHub</a>
           <a href="https://www.xiaohongshu.com/user/profile/bcefghj" target="_blank">小红书</a>
           <a href="mailto:bcefghj@163.com">Email</a>
         </div>

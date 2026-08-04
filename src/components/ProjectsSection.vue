@@ -25,10 +25,10 @@
               <span>Python</span><span>TypeScript</span><span>Agent Loop</span><span>分层记忆</span><span>MCP</span><span>多模型适配</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/bcefghj/claude-code-complete-guide" target="_blank" class="project-link">📖 源码指南 V1</a>
-              <a href="https://github.com/bcefghj/claude-code-complete-guide_v2" target="_blank" class="project-link">📖 源码指南 V2</a>
-              <a href="https://github.com/bcefghj/miniClaudeCode" target="_blank" class="project-link">⚙️ miniClaudeCode</a>
-              <a href="https://github.com/bcefghj/claude-code-comics" target="_blank" class="project-link">🎨 漫画图解</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="project-link">📖 源码指南 V1</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="project-link">📖 源码指南 V2</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="project-link">⚙️ miniClaudeCode</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="project-link">🎨 漫画图解</a>
             </div>
           </div>
           <div class="project-featured-visual">
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/multi-agent-aiops" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -96,7 +96,7 @@
               <div class="kpi-item"><span class="kpi-num">85%+</span><span class="kpi-label">根因准确率</span></div>
             </div>
             <div class="project-tech"><span>LangGraph</span><span>RAG</span><span>Prometheus</span><span>Docker</span><span>Langfuse</span></div>
-            <a href="https://github.com/bcefghj/multi-agent-aiops" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/multi-agent-aiops</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -105,7 +105,7 @@
           <div class="showcase-image">
             <img src="https://raw.githubusercontent.com/bcefghj/noteking-pro/main/demos/openclaw_meeting/preview/page_01.png" alt="NoteKing Pro 会议纪要输出" loading="lazy">
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/noteking-pro" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -117,8 +117,8 @@
             <p>从视频笔记工具（V1，30+ 平台）演进到<strong>会议整理多 Agent 系统（V3）</strong>，基于 LangGraph Supervisor 模式编排 4 个 Agent：<strong>转录 Agent</strong>（Whisper + 说话人分离）→ <strong>分析 Agent</strong>（决策/行动项提取）→ <strong>整理 Agent</strong>（结构化会议纪要）→ <strong>跟进 Agent</strong>（MCP 对接日历/邮件/Notion）。借鉴 Claude Code 分层记忆设计实现跨会议上下文关联。</p>
             <div class="project-tech"><span>LangGraph</span><span>Whisper</span><span>pyannote</span><span>MCP</span><span>Redis</span></div>
             <div class="showcase-links-row">
-              <a href="https://github.com/bcefghj/noteking-pro" target="_blank" class="showcase-repo-link">→ NoteKing Pro（会议版）</a>
-              <a href="https://github.com/bcefghj/noteking" target="_blank" class="showcase-repo-link">→ NoteKing（视频版）</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ NoteKing Pro（会议版）</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ NoteKing（视频版）</a>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@
           <div class="showcase-image">
             <img src="https://raw.githubusercontent.com/bcefghj/travel-agent-guide/main/comics/07-商旅场景.png" alt="商旅Agent场景漫画" loading="lazy">
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/travel-agent-guide" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -139,7 +139,7 @@
             <h3>商旅 Agent — 企业级智能旅行规划系统</h3>
             <p>企业级 AI Agent 学习 + 实战 + 面试一体化项目。多 Agent 协作完成差旅申请→行程规划→订票→费用报销全流程，Python/Java/Go 三语言实现，配套 200+ 面试题、STAR 面试稿、哆啦A梦漫画图解。</p>
             <div class="project-tech"><span>LangGraph</span><span>Multi-Agent</span><span>MCP</span><span>FastAPI</span></div>
-            <a href="https://github.com/bcefghj/travel-agent-guide" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/travel-agent-guide</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -174,7 +174,7 @@
               </div>
             </div>
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/agent-knowledge-hub" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -185,7 +185,7 @@
             <h3>AgentKnowledgeHub — 企业级多 Agent 知识管理系统</h3>
             <p>4 个 AI Agent 分工协作，完成企业知识的全生命周期管理：<strong>文档解析</strong>（PDF/Word/网页）→ <strong>知识抽取</strong>（实体识别 + 关系图谱）→ <strong>智能问答</strong>（RAG + LLM）→ <strong>增量更新</strong>（变更检测 + 自动同步）。Python/Java/Go 三语言实现，配套完整面试材料。</p>
             <div class="project-tech"><span>LangGraph</span><span>RAG</span><span>Chroma</span><span>FastAPI</span><span>Docker</span></div>
-            <a href="https://github.com/bcefghj/agent-knowledge-hub" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/agent-knowledge-hub</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -194,7 +194,7 @@
           <div class="showcase-image">
             <img src="https://raw.githubusercontent.com/bcefghj/ai-agent-interview-guide/main/comics/04-多Agent协作.png" alt="多Agent协作漫画" loading="lazy">
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/ai-agent-interview-guide" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -205,7 +205,7 @@
             <h3>AI Agent 面试全攻略</h3>
             <p>从零到 Offer 的完整面试指南，包含 200+ 面试题、企业级项目（Python/Java/Go 三语言）、简历模板、STAR 面试稿、哆啦A梦漫画图解。</p>
             <div class="project-tech"><span>LangGraph</span><span>RAG</span><span>MCP</span><span>VitePress</span></div>
-            <a href="https://github.com/bcefghj/ai-agent-interview-guide" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/ai-agent-interview-guide</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -214,7 +214,7 @@
           <div class="showcase-image">
             <img src="https://raw.githubusercontent.com/bcefghj/learn-minimind/main/assets/comics/01-llm-overview.png" alt="LLM 概览漫画" loading="lazy">
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/learn-minimind" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -225,7 +225,7 @@
             <h3>Learn MiniMind 大模型学习指南</h3>
             <p>22 节课彻底搞懂大语言模型训练全流程：Tokenizer → Embedding → Attention → SFT → LoRA → RLHF。配套哆啦A梦风格漫画图解，GitHub 120 Stars。</p>
             <div class="project-tech"><span>Transformer</span><span>SFT</span><span>LoRA</span><span>RLHF</span></div>
-            <a href="https://github.com/bcefghj/learn-minimind" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/learn-minimind</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -273,7 +273,7 @@
               </div>
             </div>
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/multi-agent-meeting-assistant" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -284,7 +284,7 @@
             <h3>多 Agent 智能会议助手系统</h3>
             <p>企业级 <strong>5-Agent 会议全流程自动化系统</strong>，Pipeline + 并行编排。从录音到会议纪要、待办清单、风险预警、自动跟进，全程无需人工干预。三语言完整实现，配套 50+ 八股文、STAR 话术、简历模板、30+ 面试问答。</p>
             <div class="project-tech"><span>LangGraph</span><span>Whisper</span><span>MCP</span><span>Pipeline</span><span>并行编排</span></div>
-            <a href="https://github.com/bcefghj/multi-agent-meeting-assistant" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/multi-agent-meeting-assistant</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -329,7 +329,7 @@
               </div>
             </div>
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/smart-cs-multi-agent" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -340,7 +340,7 @@
             <h3>智能客服多 Agent 系统</h3>
             <p>企业级面试项目全攻略，面向金融/电商场景。<strong>Supervisor 编排</strong>多个专业 Agent（FAQ检索、工单创建、退款审批、转人工），配合<strong>分层记忆</strong>实现跨会话上下文保持，Langfuse 全链路追踪。Python/Java/Go 三语言完整实现。</p>
             <div class="project-tech"><span>LangGraph</span><span>Supervisor</span><span>MCP</span><span>Redis</span><span>Langfuse</span></div>
-            <a href="https://github.com/bcefghj/smart-cs-multi-agent" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/smart-cs-multi-agent</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -380,7 +380,7 @@
               </div>
             </div>
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/multi-agent-ecommerce-system" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -391,7 +391,7 @@
             <h3>多 Agent 电商推荐与营销系统</h3>
             <p>Supervisor 统一编排三个并行 Agent：<strong>推荐 Agent</strong>（协同过滤 + 内容推荐）+ <strong>文案 Agent</strong>（根据用户画像生成个性化营销文案）+ <strong>库存 Agent</strong>（实时校验缺货自动剔除）。asyncio 并行执行，Redis Feature Store 缓存用户特征，支持 A/B Testing。Python/Java/Go 三语言实现，GitHub 66 Stars。</p>
             <div class="project-tech"><span>LangGraph</span><span>Supervisor</span><span>Redis</span><span>asyncio</span><span>FastAPI</span></div>
-            <a href="https://github.com/bcefghj/multi-agent-ecommerce-system" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/multi-agent-ecommerce-system</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -400,7 +400,7 @@
           <div class="showcase-image">
             <img src="https://raw.githubusercontent.com/bcefghj/comic-guide-skill/main/examples/openclaw-guide/styles-preview/chibi-openclaw.png" alt="哆啦A梦风格漫画" loading="lazy">
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/comic-guide-skill" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -417,7 +417,7 @@
               <img src="https://raw.githubusercontent.com/bcefghj/comic-guide-skill/main/examples/openclaw-guide/styles-preview/guofeng-openclaw.png" alt="国风风格" loading="lazy">
             </div>
             <div class="project-tech"><span>Cursor Skill</span><span>Claude Code</span><span>Prompt Engineering</span><span>10+ 风格</span></div>
-            <a href="https://github.com/bcefghj/comic-guide-skill" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/comic-guide-skill</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -460,7 +460,7 @@
               </div>
             </div>
             <div class="showcase-overlay">
-              <a href="https://github.com/bcefghj/multi-agent-travel-planner" target="_blank" class="showcase-btn">查看仓库</a>
+              <a href="https://github.com/Qiluo05" target="_blank" class="showcase-btn">查看仓库</a>
             </div>
           </div>
           <div class="showcase-info">
@@ -476,7 +476,7 @@
               <div class="kpi-item"><span class="kpi-num">34+</span><span class="kpi-label">面试题</span></div>
             </div>
             <div class="project-tech"><span>LangGraph</span><span>Pipeline</span><span>并行编排</span><span>FastAPI</span><span>Streamlit</span></div>
-            <a href="https://github.com/bcefghj/multi-agent-travel-planner" target="_blank" class="showcase-repo-link">→ github.com/bcefghj/multi-agent-travel-planner</a>
+            <a href="https://github.com/Qiluo05" target="_blank" class="showcase-repo-link">→ github.com/Qiluo05</a>
           </div>
         </div>
 
@@ -494,7 +494,7 @@
           <h3>MedicalGPT 医疗大模型指南</h3>
           <p>20节课搞懂医疗大模型训练全流程：PT/SFT/LoRA/RLHF/DPO/GRPO。</p>
           <div class="project-tech"><span>SFT</span><span>LoRA</span><span>RLHF</span><span>DPO</span></div>
-          <a href="https://github.com/bcefghj/learn-MedicalGPT" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
         <div class="project-card reveal" data-repo="ClaudeCode-Source-Analysis">
@@ -505,7 +505,7 @@
           <h3>Claude Code 源码解析报告</h3>
           <p>基于 2026 年 3 月 npm source map 泄漏事件的完整技术分析。</p>
           <div class="project-tech"><span>TypeScript</span><span>逆向分析</span><span>架构</span></div>
-          <a href="https://github.com/bcefghj/ClaudeCode-Source-Analysis" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
         <div class="project-card reveal" data-repo="learn-minimind-multimodal">
@@ -516,7 +516,7 @@
           <h3>MiniMind-V 多模态学习指南</h3>
           <p>20节课 + 278道面试题 + STAR面试稿 + 哆啦A梦漫画。</p>
           <div class="project-tech"><span>多模态</span><span>Vision</span><span>LLM</span></div>
-          <a href="https://github.com/bcefghj/learn-minimind-multimodal" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
         <div class="project-card reveal" data-repo="learn-nano-vllm">
@@ -527,7 +527,7 @@
           <h3>nano-vllm 面试学习指南</h3>
           <p>20节课程 + 72道面试八股文 + STAR面试法 + 哆啦A梦漫画。</p>
           <div class="project-tech"><span>vLLM</span><span>推理优化</span><span>部署</span></div>
-          <a href="https://github.com/bcefghj/learn-nano-vllm" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
         <div class="project-card reveal" data-repo="learn-nanobot">
@@ -538,7 +538,7 @@
           <h3>Learn Nanobot Agent 指南</h3>
           <p>17章深度教程、134道八股文、哆啦A梦漫画图解、STAR面试法。</p>
           <div class="project-tech"><span>Agent Loop</span><span>Memory</span><span>MCP</span></div>
-          <a href="https://github.com/bcefghj/learn-nanobot" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
         <div class="project-card reveal" data-repo="miniClaudeCode">
@@ -549,7 +549,7 @@
           <h3>miniClaudeCode 框架</h3>
           <p>从 50 万行蒸馏到 ~1000 行的 Claude Code 核心 Agent 架构最小复现。</p>
           <div class="project-tech"><span>Python</span><span>Agent Loop</span><span>Memory</span></div>
-          <a href="https://github.com/bcefghj/miniClaudeCode" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
         <div class="project-card reveal" data-repo="claude-code-pet-system-analysis">
@@ -560,7 +560,7 @@
           <h3>Claude Code 宠物系统解析</h3>
           <p>18种宠物全图鉴、进化系统、稀有度分析，深度解析 BUDDY 系统。</p>
           <div class="project-tech"><span>TypeScript</span><span>源码分析</span></div>
-          <a href="https://github.com/bcefghj/claude-code-pet-system-analysis" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
         <div class="project-card reveal" data-repo="noteking">
@@ -571,13 +571,13 @@
           <h3>NoteKing 视频笔记工具</h3>
           <p>一键把视频变精美 PDF 讲义，支持 30+ 平台、13 种模板。</p>
           <div class="project-tech"><span>Python</span><span>LaTeX</span><span>MCP</span></div>
-          <a href="https://github.com/bcefghj/noteking" target="_blank" class="card-link-overlay"></a>
+          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
         </div>
 
       </div>
 
       <div class="projects-more reveal">
-        <a href="https://github.com/bcefghj?tab=repositories&sort=stargazers" target="_blank" class="btn btn-outline">
+        <a href="https://github.com/Qiluo05" target="_blank" class="btn btn-outline">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
           查看全部 <span id="totalReposBtn">55+</span> 项目
         </a>
