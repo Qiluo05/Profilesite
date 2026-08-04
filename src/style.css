@@ -241,27 +241,44 @@ body:hover .cursor-glow { opacity: 1; }
    About
    ============================================ */
 .about-grid { display: flex; flex-direction: column; gap: 24px; }
-.about-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 32px; transition: all var(--transition-base); }
+.about-card { background: #ffffff; border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 32px; transition: all var(--transition-base); }
 .about-card:hover { border-color: var(--border-medium); box-shadow: var(--shadow-md); }
-.about-intro { display: flex; gap: 32px; align-items: flex-start; }
+.about-intro { display: flex; gap: 24px; align-items: flex-start; }
+.about-text { width: 80%; min-width: 0; }
 .about-avatar { position: relative; flex-shrink: 0; }
 .about-avatar img { width: 120px; height: 120px; border-radius: var(--radius-lg); object-fit: cover; }
 .avatar-ring { position: absolute; inset: -4px; border-radius: calc(var(--radius-lg) + 4px); background: var(--gradient-primary); z-index: -1; opacity: 0.6; }
-.about-text h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 12px; }
+.about-text h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 12px; color: var(--text-secondary); }
 .about-text p { color: var(--text-secondary); margin-bottom: 12px; line-height: 1.8; }
-.about-text strong { color: var(--accent-blue-light); font-weight: 600; }
+.about-text strong { color: var(--text-secondary); font-weight: 600; }
 .about-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
-.tag { padding: 6px 14px; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.15); border-radius: var(--radius-full); font-size: 13px; color: var(--accent-blue-light); }
+.tag { padding: 6px 14px; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.15); border-radius: var(--radius-full); font-size: 13px; color: var(--text-secondary); }
 .about-cards-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 .card-icon { font-size: 2rem; margin-bottom: 16px; }
-.about-card h4 { font-size: 1rem; font-weight: 700; margin-bottom: 16px; }
+.about-card h4 { font-size: 1rem; font-weight: 700; margin-bottom: 16px; color: var(--text-secondary); }
 .education-item { padding: 12px 0; border-bottom: 1px solid var(--border-subtle); }
 .education-item:last-child { border-bottom: none; }
-.edu-school { display: block; font-weight: 600; font-size: 0.95rem; }
+.edu-school { display: block; font-weight: 600; font-size: 0.95rem; color: var(--text-secondary); }
 .edu-degree { display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px; }
 .focus-list { list-style: none; }
 .focus-list li { padding: 8px 0; padding-left: 20px; position: relative; color: var(--text-secondary); font-size: 0.95rem; }
-.focus-list li::before { content: '→'; position: absolute; left: 0; color: var(--accent-blue); }
+.focus-list li::before { content: '→'; position: absolute; left: 0; color: var(--text-secondary); }
+.honors-grid { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 16px; }
+.honor-group { background: #fafbfd; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 14px 16px; border-left: 3px solid transparent; }
+.honor-group-national { border-left-color: #f59e0b; }
+.honor-group-provincial { border-left-color: #3b82f6; }
+.honor-group-school { border-left-color: #10b981; }
+.honor-group-cert { border-left-color: #8b5cf6; }
+.honor-group-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.honor-group-icon { font-size: 1.05rem; line-height: 1; }
+.honor-group-title { font-size: 0.95rem; font-weight: 700; color: var(--text-secondary); margin: 0; }
+.honor-group-count { margin-left: auto; font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: var(--radius-full); background: rgba(59,130,246,0.08); color: var(--text-secondary); }
+.honor-list { list-style: none; margin: 0; padding: 0; }
+.honor-item { display: flex; gap: 10px; align-items: baseline; padding: 6px 0; }
+.honor-item:first-child { padding-top: 0; }
+.honor-item:last-child { padding-bottom: 0; }
+.honor-date { flex-shrink: 0; font-size: 0.78rem; color: #8f959f; white-space: nowrap; }
+.honor-name { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.7; }
 
 /* ============================================
    Skills
@@ -450,6 +467,7 @@ body:hover .cursor-glow { opacity: 1; }
   .section { padding: 80px 0; }
   .nav-links { display: none; }
   .about-intro { flex-direction: column; align-items: center; text-align: center; }
+  .about-text { width: 100%; }
   .about-tags { justify-content: center; }
   .about-cards-row { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
