@@ -6,6 +6,20 @@
         <h2 class="section-title">项目经验</h2>
         <p class="section-desc">覆盖Java/PHP/Go三端全栈与Web/小程序/App跨端复用，从0到1构建多业态业务闭环</p>
       </div>
+
+      <!-- 操作提示：滚动查看更多 / 点击查看详情 -->
+      <!-- <div class="carousel-hints reveal">
+        <div class="carousel-hint">
+          <div class="hint-box">
+            <div class="hint-scroll-wheel"></div>
+          </div>
+          <span>鼠标放置卡片区域滚动/拖拽查看更多</span>
+        </div>
+        <div class="carousel-hint">
+          <svg class="hint-click-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/></svg>
+          <span>点击查看详情</span>
+        </div>
+      </div> -->
     </div>
 
     <!-- 水平滚轮轮播：上下滚轮 → 左右移动，停止自动吸附居中，当前居中卡片放大 -->

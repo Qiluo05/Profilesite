@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-dark" id="contact">
+  <section class="section" id="contact">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">GET IN TOUCH</span>
