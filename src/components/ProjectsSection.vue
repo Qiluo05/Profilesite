@@ -4,7 +4,7 @@
       <div class="section-header">
         <span class="section-tag">FEATURED PROJECTS</span>
         <h2 class="section-title">精选项目</h2>
-        <p class="section-desc">深入 Agent 架构设计与源码分析，从理论到实践的完整闭环</p>
+        <p class="section-desc">覆盖Java/PHP/Go三端全栈与Web/小程序/App跨端复用，从0到1构建多业态业务闭环</p>
       </div>
 
       <!-- Featured Project: Claude Code -->
@@ -482,106 +482,6 @@
 
       </div>
 
-      <!-- Compact Project Grid -->
-      <h3 class="subsection-title reveal">更多开源项目</h3>
-      <div class="projects-grid">
-
-        <div class="project-card reveal" data-repo="learn-MedicalGPT">
-          <div class="project-card-header">
-            <div class="project-card-icon">🏥</div>
-            <span class="card-stars">⭐ <span class="live-stars">45</span></span>
-          </div>
-          <h3>MedicalGPT 医疗大模型指南</h3>
-          <p>20节课搞懂医疗大模型训练全流程：PT/SFT/LoRA/RLHF/DPO/GRPO。</p>
-          <div class="project-tech"><span>SFT</span><span>LoRA</span><span>RLHF</span><span>DPO</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-        <div class="project-card reveal" data-repo="ClaudeCode-Source-Analysis">
-          <div class="project-card-header">
-            <div class="project-card-icon">🔍</div>
-            <span class="card-stars">⭐ <span class="live-stars">44</span></span>
-          </div>
-          <h3>Claude Code 源码解析报告</h3>
-          <p>基于 2026 年 3 月 npm source map 泄漏事件的完整技术分析。</p>
-          <div class="project-tech"><span>TypeScript</span><span>逆向分析</span><span>架构</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-        <div class="project-card reveal" data-repo="learn-minimind-multimodal">
-          <div class="project-card-header">
-            <div class="project-card-icon">👁️</div>
-            <span class="card-stars">⭐ <span class="live-stars">32</span></span>
-          </div>
-          <h3>MiniMind-V 多模态学习指南</h3>
-          <p>20节课 + 278道面试题 + STAR面试稿 + 哆啦A梦漫画。</p>
-          <div class="project-tech"><span>多模态</span><span>Vision</span><span>LLM</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-        <div class="project-card reveal" data-repo="learn-nano-vllm">
-          <div class="project-card-header">
-            <div class="project-card-icon">🚀</div>
-            <span class="card-stars">⭐ <span class="live-stars">22</span></span>
-          </div>
-          <h3>nano-vllm 面试学习指南</h3>
-          <p>20节课程 + 72道面试八股文 + STAR面试法 + 哆啦A梦漫画。</p>
-          <div class="project-tech"><span>vLLM</span><span>推理优化</span><span>部署</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-        <div class="project-card reveal" data-repo="learn-nanobot">
-          <div class="project-card-header">
-            <div class="project-card-icon">🤖</div>
-            <span class="card-stars">⭐ <span class="live-stars">68</span></span>
-          </div>
-          <h3>Learn Nanobot Agent 指南</h3>
-          <p>17章深度教程、134道八股文、哆啦A梦漫画图解、STAR面试法。</p>
-          <div class="project-tech"><span>Agent Loop</span><span>Memory</span><span>MCP</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-        <div class="project-card reveal" data-repo="miniClaudeCode">
-          <div class="project-card-header">
-            <div class="project-card-icon">⚙️</div>
-            <span class="card-stars">⭐ <span class="live-stars">52</span></span>
-          </div>
-          <h3>miniClaudeCode 框架</h3>
-          <p>从 50 万行蒸馏到 ~1000 行的 Claude Code 核心 Agent 架构最小复现。</p>
-          <div class="project-tech"><span>Python</span><span>Agent Loop</span><span>Memory</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-        <div class="project-card reveal" data-repo="claude-code-pet-system-analysis">
-          <div class="project-card-header">
-            <div class="project-card-icon">🐾</div>
-            <span class="card-stars">⭐ <span class="live-stars">32</span></span>
-          </div>
-          <h3>Claude Code 宠物系统解析</h3>
-          <p>18种宠物全图鉴、进化系统、稀有度分析，深度解析 BUDDY 系统。</p>
-          <div class="project-tech"><span>TypeScript</span><span>源码分析</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-        <div class="project-card reveal" data-repo="noteking">
-          <div class="project-card-header">
-            <div class="project-card-icon">📒</div>
-            <span class="card-stars">⭐ <span class="live-stars">12</span></span>
-          </div>
-          <h3>NoteKing 视频笔记工具</h3>
-          <p>一键把视频变精美 PDF 讲义，支持 30+ 平台、13 种模板。</p>
-          <div class="project-tech"><span>Python</span><span>LaTeX</span><span>MCP</span></div>
-          <a href="https://github.com/Qiluo05" target="_blank" class="card-link-overlay"></a>
-        </div>
-
-      </div>
-
-      <div class="projects-more reveal">
-        <a href="https://github.com/Qiluo05" target="_blank" class="btn btn-outline">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-          查看全部 <span id="totalReposBtn">55+</span> 项目
-        </a>
-      </div>
     </div>
   </section>
 </template>
